@@ -1,25 +1,25 @@
 # AI Hacking and Research Repository
 
-Welcome to the **AI Hacking and Research** repository.  This project is a place to collect resources, notes and hands‑on exercises relating to offensive security for artificial‑intelligence systems.  It complements my current work on AI security capture‑the‑flag exercises such as the challenge series at [gandalf.lakera.ai](https://gandalf.lakera.ai/) by organising training material and references.
+Welcome to my **AI Hacking and Research** repository.  This project is a place to collect resources, notes and hands‑on exercises relating to offensive security for artificial‑intelligence systems.  It complements my current work on AI security capture‑the‑flag exercises such as the challenge series at [gandalf.lakera.ai](https://gandalf.lakera.ai/) by organising training material and references.
 
 Below is an outline of the resources I plan to work through.  Each subsection briefly describes the course, training programme or book.  As I progress I will add more detailed notes, labs, write‑ups and projects under the appropriate section.
 
 ## Courses and Learning Paths
 
 ### AI Red Teamer Job Role Path – HTB Academy
-This job‑role learning path, created by **Hack The Box** in collaboration with **Google**, equips cybersecurity professionals to **assess, exploit and secure AI systems**.  It teaches red‑teaming techniques such as prompt injection, jailbreaking LLMs, and model exploitation while aligning with Google’s Secure AI Framework (SAIF)【387627809080350†L111-L119】.
+This job‑role learning path, created by **Hack The Box** in collaboration with **Google**, equips cybersecurity professionals to **assess, exploit and secure AI systems**.  It teaches red‑teaming techniques such as prompt injection, jailbreaking LLMs, and model exploitation while aligning with Google’s Secure AI Framework (SAIF).
 
 ### Hands‑On AI (LLM) Red Teaming – Udemy
-A practical Udemy course that starts with the basics of large language models and progresses to advanced red‑teaming techniques.  Learners study **LLM fundamentals, the OWASP Top 10 for LLMs, and hands‑on red‑teaming tools** while practising jailbreaking and adversarial prompt engineering【495099644914876†L55-L80】.
+A practical Udemy course that starts with the basics of large language models and progresses to advanced red‑teaming techniques.  Learners study **LLM fundamentals, the OWASP Top 10 for LLMs, and hands‑on red‑teaming tools** while practising jailbreaking and adversarial prompt engineering.
 
 ### A Deep Dive into LLM Red Teaming – Udemy
-This course teaches prompt injection, jailbreak tactics, indirect prompt attacks and LLM vulnerability testing from beginner to advanced levels.  It covers **OWASP Top 10 attacks on ML systems**, red‑teaming generative AI and building testing frameworks【59584195683449†L70-L84】【59584195683449†L168-L188】.
+This course teaches prompt injection, jailbreak tactics, indirect prompt attacks and LLM vulnerability testing from beginner to advanced levels.  It covers **OWASP Top 10 attacks on ML systems**, red‑teaming generative AI and building testing frameworks.
 
 ### The Ultimate AI/LLM/ML Penetration Testing Training Course – Udemy
-A comprehensive penetration‑testing course for ethical hackers and bug hunters that addresses the **full spectrum of LLM and machine‑learning vulnerabilities**.  Topics include prompt injection, insecure output handling, training‑data poisoning, denial‑of‑service, supply‑chain vulnerabilities, sensitive‑information disclosure, insecure plugin design, excessive agency, overreliance and model theft【80135916364902†L55-L100】.
+A comprehensive penetration‑testing course for ethical hackers and bug hunters that addresses the **full spectrum of LLM and machine‑learning vulnerabilities**.  Topics include prompt injection, insecure output handling, training‑data poisoning, denial‑of‑service, supply‑chain vulnerabilities, sensitive‑information disclosure, insecure plugin design, excessive agency, overreliance and model theft.
 
 ### AI Security – Udemy
-This course explores how generative AI intersects with cybersecurity.  Students learn to **write effective prompts, leverage ChatGPT and Microsoft Security Copilot for SOC/CTI tasks**, review the OWASP Top 10 vulnerabilities for LLMs, apply the MITRE ATLAS framework and build governance and threat‑modelling programmes【271468333842404†L69-L100】.  It also covers penetration‑testing approaches for generative AI systems【271468333842404†L90-L113】.
+This course explores how generative AI intersects with cybersecurity.  Students learn to **write effective prompts, leverage ChatGPT and Microsoft Security Copilot for SOC/CTI tasks**, review the OWASP Top 10 vulnerabilities for LLMs, apply the MITRE ATLAS framework and build governance and threat‑modelling programmes.  It also covers penetration‑testing approaches for generative AI systems.
 
 ### AI Red Teaming & AI Security Masterclass
 A live masterclass that blends technical depth with practical exercises.  It focuses on prompt injection, AI risk management and large language model security, culminating in a certification.  Participants gain hands‑on experience with AI red‑teaming techniques and defensive strategies.
