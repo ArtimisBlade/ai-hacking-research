@@ -52,31 +52,24 @@ Because each video is over 100 MB, they cannot be stored directly in the reposi
 
 ## Key Takeaways
 
-1. **Prompt injection is the top LLM risk.** OWASP’s LLM Top‑10 lists *prompt injection* (LLM01) as the most critical vulnerability and notes that attackers can use prompt inputs to alter model behaviour, disclose sensitive information or execute unauthorized commands【491290027665749†L60-L113】.
-2. **Layered defence is essential.** Simple restrictions (e.g., blocking certain words) are easily bypassed. Effective mitigation requires input/output filtering, least‑privilege access, privilege control, and human‑in‑the‑loop approval【491290027665749†L124-L170】.
+1. **Prompt injection is the top LLM risk.** OWASP’s LLM Top‑10 lists *prompt injection* (LLM01) as the most critical vulnerability and notes that attackers can use prompt inputs to alter model behaviour, disclose sensitive information or execute unauthorized commands【.
+2. **Layered defence is essential.** Simple restrictions (e.g., blocking certain words) are easily bypassed. Effective mitigation requires input/output filtering, least‑privilege access, privilege control, and human‑in‑the‑loop approval.
 3. **Framework guidance:**
-   - **OWASP LLM Top‑10:** Highlights prompt injection and supply‑chain risks and provides actionable mitigation guidance【687096804551281†L287-L303】.
-   - **NIST AI RMF 1.0:** Establishes a governance framework for managing AI risks; organizations should focus on the controls that address most risk【687096804551281†L304-L314】.
-   - **MITRE ATLAS:** Maps adversarial tactics for AI and is useful for red‑team exercises【687096804551281†L315-L324】.
-   - **Google SAIF:** Emphasizes secure AI supply chain and monitoring and is useful for cloud‑based AI deployments【687096804551281†L330-L341】.
-   - **ISO/IEC 42001:** Provides a certifiable management system for AI security and compliance【687096804551281†L344-L354】.
-4. **Prompt‑injection attacks operate at the semantic layer.** Traditional perimeter defenses (firewalls and input validation) are ineffective because prompt injection exploits the model’s instruction‑following behaviour. Enterprises need layered defences including input validation, output filtering, privileged minimization and real‑time monitoring【317314209060531†L130-L147】.
+   - **OWASP LLM Top‑10:** Highlights prompt injection and supply‑chain risks and provides actionable mitigation guidance.
+   - **NIST AI RMF 1.0:** Establishes a governance framework for managing AI risks; organizations should focus on the controls that address most risk.
+   - **MITRE ATLAS:** Maps adversarial tactics for AI and is useful for red‑team exercises.
+   - **Google SAIF:** Emphasizes secure AI supply chain and monitoring and is useful for cloud‑based AI deployments.
+   - **ISO/IEC 42001:** Provides a certifiable management system for AI security and compliance.
+4. **Prompt‑injection attacks operate at the semantic layer.** Traditional perimeter defenses (firewalls and input validation) are ineffective because prompt injection exploits the model’s instruction‑following behaviour. Enterprises need layered defences including input validation, output filtering, privileged minimization and real‑time monitoring.
 
-## Video Upload Guidance
-
-GitHub’s regular repositories block files larger than **100 MiB**【894946957060924†L187-L204】. If you attempt to add or update a file larger than this limit, the push will be rejected. To include large videos in this project:
-
-1. **Use Git Large File Storage (LFS):**
-   - Install LFS on your machine (`git lfs install`).
-   - Track your video files (`git lfs track "videos/level6.mp4"` and `git lfs track "videos/level7.mp4"`). Commit the `.gitattributes` file.
-   - Add the video files in a `videos/` directory (e.g., `videos/level6.mp4`, `videos/level7.mp4`). Commit and push the changes. LFS stores pointers in the repository while the large files are hosted on GitHub’s LFS servers.
-2. **Alternatively, create a GitHub release:** Releases allow you to attach binaries up to **2 GiB** per file【894946957060924†L294-L301】. Create a release through the GitHub interface and upload the videos as release assets, then link to them here.
 
 ## Framework & Best‑Practice Resources
 
-- **OWASP LLM 01 – Prompt Injection (2025):** Defines prompt injection vulnerabilities, distinguishes direct and indirect injections, and lists mitigation strategies such as constraining model behaviour, defining output formats, input/output filtering, privilege control, human review, segregating external content and adversarial testing【491290027665749†L124-L170】.  
-- **Prompt Injection Attack Guidance (Obsidian Security, 2025):** Recommends layered defences (input validation, output filtering, privilege minimization, real‑time monitoring), extending identity and access controls to AI agents and following NIST AI RMF & ISO 42001 standards【317314209060531†L130-L147】.
-- **AI Security Frameworks (SentinelOne, 2026):** Discusses key frameworks — OWASP LLM Top‑10, NIST AI RMF, MITRE ATLAS, Google SAIF and ISO/IEC 42001 — and advises starting with OWASP for immediate coverage and focusing on controls that reduce most risk【687096804551281†L287-L354】.
+- **OWASP LLM 01 – Prompt Injection (2025):** Defines prompt injection vulnerabilities, distinguishes direct and indirect injections, and lists mitigation strategies such as constraining model behaviour, defining output formats, input/output filtering, privilege control, human review, segregating external content and adversarial testing.
+-   
+- **Prompt Injection Attack Guidance (Obsidian Security, 2025):** Recommends layered defences (input validation, output filtering, privilege minimization, real‑time monitoring), extending identity and access controls to AI agents and following NIST AI RMF & ISO 42001 standards.
+- 
+- **AI Security Frameworks (SentinelOne, 2026):** Discusses key frameworks — OWASP LLM Top‑10, NIST AI RMF, MITRE ATLAS, Google SAIF and ISO/IEC 42001 — and advises starting with OWASP for immediate coverage and focusing on controls that reduce most risk.
 
 ## Future Work
 
