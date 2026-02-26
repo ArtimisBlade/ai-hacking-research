@@ -75,3 +75,8 @@ A book that integrates **red‑team and blue‑team** approaches (purple teaming
 
 ### How to Use This Repository
 Each section above will be expanded with notes, summaries, labs and projects as I work through the material.  Feel free to explore, contribute or suggest additional resources.
+
+### Gandalf Prompt Injection Pentesting
+
+This new subfolder [`gandalf-prompt-injection`](gandalf-prompt-injection/README.md) documents my pentesting exercise against the **gandalf.lakera.ai** challenge. It provides a level-by-level summary of the prompt-injection techniques used to extract the secret password, insights gained, and references to relevant AI security frameworks. The README also outlines guidance on uploading large video files (e.g., levels 6 and 7) using Git LFS or GitHub releases.
+
