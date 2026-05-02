@@ -3,7 +3,7 @@
 ## Overview
 
 The **gandalf.lakera.ai** challenge is an interactive pentesting game where a language model (LM) acts as a gatekeeper for a "magic password." Players must coax the model to reveal the secret by exploiting weaknesses in its prompt injection defences.  
-This section summarises my attempts (Levels 1‑7) to extract the password and highlights why effective **prompt injection protection** is vital.
+This section summarises my attempts (Levels 1_7) to extract the password and highlights why effective **prompt injection protection** is vital.
 
 ## Level‑by‑Level Summary
 
@@ -48,7 +48,6 @@ These later levels involved similar social‑engineering techniques. I recorded 
 - **Level 6 video:** Demonstrates the prompt logic and capture of password `underpass`.
 - **Level 7 video:** Shows the extraction of password `debutante`.
 
-Because each video is over 100 MB, they cannot be stored directly in the repository. See the **Video Upload Guidance** section for instructions on how to add them using Git Large File Storage (LFS) or GitHub releases.
 
 ## Key Takeaways
 
@@ -69,9 +68,12 @@ Because each video is over 100 MB, they cannot be stored directly in the reposi
 -   
 - **Prompt Injection Attack Guidance (Obsidian Security, 2025):** Recommends layered defences (input validation, output filtering, privilege minimization, real‑time monitoring), extending identity and access controls to AI agents and following NIST AI RMF & ISO 42001 standards.
 - 
-- **AI Security Frameworks (SentinelOne, 2026):** Discusses key frameworks — OWASP LLM Top‑10, NIST AI RMF, MITRE ATLAS, Google SAIF and ISO/IEC 42001 — and advises starting with OWASP for immediate coverage and focusing on controls that reduce most risk.
+- **AI Security Frameworks (SentinelOne, 2026):** Discusses key frameworks  OWASP LLM Top‑10, NIST AI RMF, MITRE ATLAS, Google SAIF and ISO/IEC 42001  and advises starting with OWASP for immediate coverage and focusing on controls that reduce most risk.
 
 ## Future Work
 
 - Upload and link the Level 6 and Level 7 videos using Git LFS or a release.
+- Upload AutoLLM
+- Upload Agent Breaker trial and error attempts
+- Possible Burp suite usage and detailed stories with malicious signallying to poison the feedback loop.
 - Add notes and findings from Levels 8 and beyond. Continue exploring new prompt‑injection techniques and update this document accordingly.
